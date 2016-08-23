@@ -169,9 +169,15 @@ public class Ejercicio8 extends javax.swing.JFrame {
     }
     private void txtHorasKeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txtHorasKeyTyped
        char c=evt.getKeyChar(); 
-     if(!Character.isDigit(c) && c != '.') { 
+     if(!Character.isDigit(c)){
               getToolkit().beep(); 
-              evt.consume();
+              evt.consume(); 
+              
+              
+              
+              
+              
+              
     }//GEN-LAST:event_txtHorasKeyTyped
     }
     /**
@@ -221,3 +227,5 @@ public class Ejercicio8 extends javax.swing.JFrame {
     private javax.swing.JTextField txtMonto;
     // End of variables declaration//GEN-END:variables
 }
+
+
